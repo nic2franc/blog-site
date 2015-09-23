@@ -1,0 +1,205 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-weight: 300;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+h2 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #555;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+/*Navbar*/
+.navbar-brand {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-brand {
+    color: #555;
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li>a:focus {
+  border-bottom: 3px solid;
+  padding-bottom: 12px;
+}
+.navbar-default .navbar-nav>li:first-child>a, .navbar-default .navbar-nav>li:first-child>a:hover, .navbar-default .navbar-nav>li:first-child>a:focus {
+    color: #3498db;
+}
+.navbar-default .navbar-nav>li:nth-child(2)>a, .navbar-default .navbar-nav>li:nth-child(2)>a:hover, .navbar-default .navbar-nav>li:nth-child(2)>a:focus {
+    color: #e74c3c;
+}
+.navbar-default .navbar-nav>li:nth-child(3)>a, .navbar-default .navbar-nav>li:nth-child(3)>a:hover, .navbar-default .navbar-nav>li:nth-child(3)>a:focus {
+    color: #2ecc71;
+}
+.navbar-default .navbar-nav>li:nth-child(4)>a, .navbar-default .navbar-nav>li:nth-child(4)>a:hover, .navbar-default .navbar-nav>li:nth-child(4)>a:focus {
+    color: #f39c12;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #f8f8f8;
+}
+/*Blog Page*/
+#blog-page {
+  padding-top: 30px;
+}
+#blog-page .blog-post:first-child .blog-post-title  {
+  color: #34495e;
+}
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.blog-main img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.blog-sidebar {
+  padding-left: 30px;
+}
+
+/* Sidebar modules for boxing content */
+#subscribe-box {
+  padding: 15px 20px;
+}
+#subscribe-box h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #666;
+  text-align: justify;
+}
+.subscribe-box .btn-warning {
+  text-transform: uppercase;
+  background-color: #f39c12;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 5px dashed #c0392b;
+}
+  
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+}
+.blog-post-title a {
+  color: #555;
+  text-decoration: none;
+}
+ .blog-post-title a:hover {
+  color: #3498db;
+ }
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #888;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+}
+.blog-post-meta .btn-danger {
+    background-color: #e74c3c;
+    padding: 3px 5px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+}
+.blog-post-meta .btn-danger:hover {
+  background-color: #d2322d;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Site-wide Styling */
+.center {
+  text-align: center;
+}
